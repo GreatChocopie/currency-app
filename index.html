@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Currency app</h1>
-        <form action="">
-            <div class="block-rus">
-                <label class="label-ru" for="fname">RUS: </label>
-                <input type="number" id="input-rus" name="input-rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency app</title>
+
+</head>
+
+<body>
+
+    <section class="currency-app__container">
+        <h1 class="currency-app__headline">Currency app</h1>
+        <form action="" method="" class="currency-app__form-blocks">
+            <div class="form-blocks__rus">
+                <label class="rus__label-ru" for="rus__input-rus">RUB: </label>
+                <input type="number" id="rus__input-rus" name="input-rus">
             </div>
-            <div class="block-thai">
-                <label class="label-thai" for="fname">THB: </label>
-                <input type="number" id="input-thai" name="input-thai">
+            <div class="form-blocks__thai">
+                <label class="thai__label-thai" for="thai__input-thai">THB: </label>
+                <input type="number" id="thai__input-thai" name="input-thai">
             </div>
-            <div class="block-us">
-                <label class="label-us" for="fname">USD: </label>
-                <input type="number" id="input-us" name="input-us">
+            <div class="form-blocks__us">
+                <label class="us__label-us" for="us__input-us">USD: </label>
+                <input type="number" id="us__input-us" name="input-us">
             </div>
-            <input class="button-ru" type="button" value="Ru ->">
+            <div class="form-blocks__button">
+                <button class="button__rus" type="submit" value="Ru ->"></button>
+                <button class="button__thai" type="submit" value="Thai ->"></button>
+                <button class="button__us" type="submit" value="Us ->"></button>
+            </div>
         </form>
-    </body>
+    </section>
+
+</body>
+
 </html>
