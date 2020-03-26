@@ -33,7 +33,6 @@ body {
 }
 
 .currency-app__form-blocks {
-      width: 100%;
       margin: 0;
       padding: 0;
       display: flex;
@@ -67,86 +66,151 @@ body {
       padding: 20px 25px;
 }
 
-//   input[type=number] {
-//       flex-grow: 1;
-//       min-height: 40px;
-//       box-sizing: border-box;
-//       color: var(--color-grey-0);
-//       background-color: transparent;
-//       border: none;
-//       text-align: right;
-//   }
+.rus__label {
+      padding-left: 55px;
+      margin-right: 5px;
+      box-sizing: border-box;
+      position: relative;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+}
 
-//   input[type=number]:focus {
-//       background-color: var(--color-grey-3);
-//   }
+.rus__label::before {
+      content: "";
+      width: 32px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(../img/icon-flag-rus.svg);
+      background-size: 32px 30px;
+}
 
-//   label {}
+.thai__label {
+      padding-left: 55px;
+      margin-right: 5px;
+      box-sizing: border-box;
+      position: relative;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+}
 
-//   .label-ru,
-//   .label-thai,
-//   .label-us {
-//       position: relative;
-//       padding-left: 40px;
-//   }
+.thai__label::before {
+      content: "";
+      width: 32px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(../img/icon-flag-thai.svg);
+      background-size: 32px 30px;
+}
 
-//   .label-ru::before {
-//       /* content: "🇹🇭 🇷🇺 🇺🇸"; */
-//       content: "";
-//       left: 5px;
-//       height: 22px;
-//       width: 26px;
-//       font-size: 26px;
-//       font-weight: bolder;
-//       padding-top: 3px;
-//       position: absolute;
-//       background-image: url(../img/rus.svg);
-//   }
+.us__label {
+      padding-left: 55px;
+      margin-right: 5px;
+      box-sizing: border-box;
+      position: relative;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+}
 
-//   .label-thai::before {
-//       content: "";
-//       left: 5px;
-//       height: 22px;
-//       width: 26px;
-//       font-size: 26px;
-//       font-weight: bolder;
-//       padding-top: 3px;
-//       position: absolute;
-//       background-image: url(../img/thai.svg);
-//   }
+.us__label::before {
+      content: "";
+      width: 32px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url(../img/icon-flag-usa.svg);
+      background-size: 32px 30px;
+}
 
-//   .label-us::before {
-//       content: "";
-//       left: 5px;
-//       height: 22px;
-//       width: 26px;
-//       font-size: 26px;
-//       font-weight: bolder;
-//       padding-top: 3px;
-//       position: absolute;
-//       background-image: url(../img/us.svg);
-//   }
+.rus__input {
+      min-width: 165px;
+      flex-grow: 1;
+      min-height: 40px;
+      box-sizing: border-box;
+      color: $color-grey-0;
+      background-color: transparent;
+      border: none;
+      text-align: right;
+      outline: none;
+}
 
-//   .block-rus {
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: space-between;
-//       min-height: 40px;
-//   }
+.rus__input:focus {
+      font-size: 28px;
+}
 
-//   .block-thai {
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: space-between;
-//       min-height: 40px;
-//   }
+.thai__input {
+      min-width: 165px;
+      flex-grow: 1;
+      min-height: 40px;
+      box-sizing: border-box;
+      color: $color-grey-0;
+      background-color: transparent;
+      border: none;
+      text-align: right;
+      outline: none;
+}
 
-//   .block-us {
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: space-between;
-//       min-height: 40px;
-//   }
+.thai__input:focus {
+      font-size: 28px;
+}
+
+.us__input {
+      min-width: 165px;
+      flex-grow: 1;
+      min-height: 40px;
+      box-sizing: border-box;
+      color: $color-grey-0;
+      background-color: transparent;
+      border: none;
+      text-align: right;
+      outline: none;
+}
+
+.us__input:focus {
+      font-size: 28px;
+}
+
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+input[type="number"] {
+      -moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+      -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+
+
+
+//   
+//   
+
+//   
+//  
 
 //   .block-rus:hover,
 //   .block-thai:hover,

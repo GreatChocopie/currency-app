@@ -22,7 +22,6 @@ body {
 }
 
 .currency-app__form-blocks {
-  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -54,6 +53,141 @@ body {
   justify-content: space-between;
   min-height: 70px;
   padding: 20px 25px;
+}
+
+.rus__label {
+  padding-left: 55px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.rus__label::before {
+  content: "";
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/icon-flag-rus.svg);
+  background-size: 32px 30px;
+}
+
+.thai__label {
+  padding-left: 55px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.thai__label::before {
+  content: "";
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/icon-flag-thai.svg);
+  background-size: 32px 30px;
+}
+
+.us__label {
+  padding-left: 55px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.us__label::before {
+  content: "";
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/icon-flag-usa.svg);
+  background-size: 32px 30px;
+}
+
+.rus__input {
+  min-width: 165px;
+  flex-grow: 1;
+  min-height: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  outline: none;
+}
+
+.rus__input:focus {
+  font-size: 28px;
+}
+
+.thai__input {
+  min-width: 165px;
+  flex-grow: 1;
+  min-height: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  outline: none;
+}
+
+.thai__input:focus {
+  font-size: 28px;
+}
+
+.us__input {
+  min-width: 165px;
+  flex-grow: 1;
+  min-height: 40px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  outline: none;
+}
+
+.us__input:focus {
+  font-size: 28px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]:hover,
+input[type=number]:focus {
+  -moz-appearance: number-input;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

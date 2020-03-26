@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <circle id="prefix__a" cx="20" cy="20" r="20"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="#D8D8D8" xlink:href="#prefix__a"/>
+        <g mask="url(#prefix__b)">
+            <g fill-rule="nonzero">
+                <path fill="#CC0113" d="M0 0H90.286V48H0z" transform="translate(-17 -4)"/>
+                <path fill="#000" stroke="#FFF" stroke-width="3.214" d="M0 5.599h90.286m0 7.385H0m0 7.384h90.286m0 7.385H0m0 7.384h90.286m0 7.385H0" transform="translate(-17 -4)"/>
+                <path fill="#02028C" d="M0 0H36.114V25.846H0z" transform="translate(-17 -4)"/>
+                <g fill="#FFF">
+                    <g>
+                        <g>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(3.01 2.585)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(3.01 2.585) translate(0 5.17)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(3.01 2.585) translate(0 10.338)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(3.01 2.585) translate(0 15.508)"/>
+                        </g>
+                        <g>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(0 5.17)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(0 10.338)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(0 15.508)"/>
+                            <g>
+                                <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(0 20.677)"/>
+                            </g>
+                            <g>
+                                <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(3.01 2.585)"/>
+                                <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(3.01 2.585) translate(0 5.17)"/>
+                                <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(3.01 2.585) translate(0 10.338)"/>
+                                <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(12.038) translate(6.019) translate(3.01 2.585) translate(0 15.508)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <g>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(0 5.17)"/>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(0 10.338)"/>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(0 15.508)"/>
+                        <g>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(0 20.677)"/>
+                        </g>
+                        <g>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(3.01 2.585)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(3.01 2.585) translate(0 5.17)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(3.01 2.585) translate(0 10.338)"/>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(24.076) translate(3.01 2.585) translate(0 15.508)"/>
+                        </g>
+                    </g>
+                    <g>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(30.095) translate(0 5.17)"/>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(30.095) translate(0 10.338)"/>
+                        <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(30.095) translate(0 15.508)"/>
+                        <g>
+                            <path d="M1.401 0L2.261 2.672 0.011 1.021 2.792 1.021 0.542 2.672z" transform="translate(-17 -4) translate(1.608 1.108) translate(30.095) translate(0 20.677)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
