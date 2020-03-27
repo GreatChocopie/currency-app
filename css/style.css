@@ -35,7 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   min-height: 70px;
-  padding: 20px 25px;
+  padding: 15px 25px;
 }
 
 .form-blocks__thai {
@@ -44,7 +44,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   min-height: 70px;
-  padding: 20px 25px;
+  padding: 15px 25px;
 }
 
 .form-blocks__us {
@@ -53,7 +53,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   min-height: 70px;
-  padding: 20px 25px;
+  padding: 15px 25px;
 }
 
 .rus__label {
@@ -132,6 +132,7 @@ body {
   border: none;
   text-align: right;
   outline: none;
+  font-size: 22px;
 }
 
 .rus__input:focus {
@@ -148,6 +149,7 @@ body {
   border: none;
   text-align: right;
   outline: none;
+  font-size: 22px;
 }
 
 .thai__input:focus {
@@ -164,6 +166,7 @@ body {
   border: none;
   text-align: right;
   outline: none;
+  font-size: 22px;
 }
 
 .us__input:focus {
@@ -189,6 +192,10 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.input-focus--js {
+  background-color: #31383F;
 }
 
 .form-blocks__button {
@@ -348,6 +355,24 @@ input[type=number]::-webkit-outer-spin-button {
   background-image: url(../img/icon-flag-usa.svg);
   background-size: 25px 25px;
   background-repeat: no-repeat;
+}
+
+::-webkit-input-placeholder {
+  color: #4F575C;
+}
+
+::-moz-placeholder {
+  color: #4F575C;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #4F575C;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #4F575C;
 }
 
 /*# sourceMappingURL=style.css.map */
